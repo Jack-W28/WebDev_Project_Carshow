@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(197, 193, 188);
+}
+
+article, h1, title, h3, p {
+    text-align: center;
+    margin: 10px;
+    font-style: oblique;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #e60606;
+    display: flex;
+    justify-content: center;
+}
+
+ul li a {
+    display: block;
+    color: rgb(17, 9, 9);
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    background-color: #111111;
+}
+
+.feature{
+    background-color: blue;
+}
+
+.about{
+    text-decoration-style: dotted;
+}
